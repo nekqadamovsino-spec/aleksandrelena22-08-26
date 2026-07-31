@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Александр & Елена — фарфоровая свадьба</title>
+  <meta property="og:title" content="Александр & Елена — фарфоровая свадьба">
+  <meta property="og:description" content="22 августа 2026 года">
+  <meta property="og:image" content="preview.jpg">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="envelopeScreen" class="envelope-screen" aria-label="Открыть свадебное приглашение">
+    <div class="envelope-scene">
+      <div class="envelope-sparkles" aria-hidden="true"></div>
+      <button id="openEnvelope" class="envelope-button" type="button" aria-label="Открыть приглашение">
+        <span class="envelope" aria-hidden="true">
+          <span class="envelope-back"></span>
+          <span class="envelope-letter">
+            <span class="letter-border"></span>
+            <span class="envelope-monogram">А <i>&amp;</i> Е</span>
+            <span class="letter-date">22 · 08 · 2026</span>
+          </span>
+          <span class="envelope-flap"></span>
+          <span class="envelope-pocket envelope-pocket-left"></span>
+          <span class="envelope-pocket envelope-pocket-right"></span>
+          <span class="envelope-pocket envelope-pocket-bottom"></span>
+          <span class="envelope-branch envelope-branch-left">❦</span>
+          <span class="envelope-branch envelope-branch-right">❦</span>
+          <span class="envelope-seal">
+            <span class="seal-ring"></span>
+            <span class="seal-initials">А&amp;Е</span>
+          </span>
+        </span>
+        <span class="envelope-text">Нажмите, чтобы открыть приглашение</span>
+        <span class="envelope-arrow" aria-hidden="true">⌄</span>
+      </button>
+    </div>
+  </div>
+  <div class="music-control">
+  <button id="musicToggle" class="music-btn" aria-label="Музыка">
+    ♫
+  </button>
+
+  <div id="musicHint" class="music-hint">
+    <span class="music-arrow">↖</span>
+    <span>Нажми, чтобы<br>заиграла музыка</span>
+  </div>
+</div>
+  <nav class="nav">
+    <a href="#invite">Приглашение</a>
+    <a href="#date">Дата</a>
+    <a href="#dresscode">Дресс-код</a>
+    <a href="#wishes">Пожелания</a>
+    <a href="#rsvp">Подтвердить</a>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="monogram">Фарфоровая свадьба</div>
+      <h1>Александр<br><span>и</span><br>Елена</h1>
+      <p class="date-line">22 августа 2026</p>
+      <p class="hero-phrase">Мы будем счастливы видеть вас рядом в этот особенный день</p>
+      <a href="#invite" class="scroll">Листайте вниз</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="invite" class="section invite">
+      <div class="ornament">❦</div>
+      <h2 class="script">Дорогие наши!</h2>
+      <p>В нашей жизни наступает день, который мы хотим разделить с самыми близкими людьми.</p>
+      <p>Приглашаем вас стать частью нашей фарфоровой истории — тёплой, красивой и наполненной любовью.</p>
+      <p>Ваше присутствие сделает этот день ещё счастливее.</p>
+      <p class="signature">С любовью, Александр и Елена</p>
+    </section>
+
+    <section class="countdown-fullscreen">
+  <img src="gallery7.jpg" alt="Александр и Елена" class="countdown-bg">
+
+  <div class="countdown-dark"></div>
+
+  <div class="countdown-full-content">
+    <h2 class="countdown-names">
+      Александр<br>
+      <span>и</span><br>
+      Елена
+    </h2>
+
+    <div class="countdown-date">22 августа 2026</div>
+
+    <div class="countdown-line">
+      <span></span>
+      <b>♡</b>
+      <span></span>
+    </div>
+
+    <div class="countdown-title">Осталось до фарфоровой свадьбы:</div>
+
+    <div class="countdown-timer">
+      <div>
+        <span id="days">00</span>
+        <small>дней</small>
+      </div>
+
+      <div class="timer-separator"></div>
+
+      <div>
+        <span id="hours">00</span>
+        <small>часов</small>
+      </div>
+
+      <div class="timer-separator"></div>
+
+      <div>
+        <span id="minutes">00</span>
+        <small>минут</small>
+      </div>
+
+      <div class="timer-separator"></div>
+
+      <div>
+        <span id="seconds">00</span>
+        <small>секунд</small>
+      </div>
+    </div>
+  </div>
+    </section>
+<section id="date" class="location">
+
+  <div class="location-overlay"></div>
+
+  <div class="location-card">
+
+    <span class="location-label">КОГДА И ГДЕ</span>
+
+    <h2>22 августа<br>2026 года</h2>
+
+    <div class="location-divider"></div>
+
+    <div class="location-item">
+      <span>МЕСТО</span>
+      <p>Ресторан «Белая скала»</p>
+    </div>
+
+    <div class="location-divider"></div>
+
+    <div class="location-item">
+      <span>АДРЕС</span>
+      <p>
+        ул. Металлургов, 29А
+      </p>
+    </div>
+
+    <a
+      href="https://yandex.ru/maps/?text=%D1%83%D0%BB.%20%D0%9C%D0%B5%D1%82%D0%B0%D0%BB%D0%BB%D1%83%D1%80%D0%B3%D0%BE%D0%B2%2C%2029%D0%90%2C%20%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%20%D0%91%D0%B5%D0%BB%D0%B0%D1%8F%20%D1%81%D0%BA%D0%B0%D0%BB%D0%B0"
+      target="_blank"
+      class="location-btn"
+    >
+      Открыть карту
+    </a>
+
+  </div>
+
+</section>
+    <section id="dresscode" class="section story dresscode-section">
+      <div class="story-text">
+        <p class="overline dark">Дресс-код</p>
+        <h2>В чём удобно</h2>
+        <p>Приходите в том, в чём вам комфортно.</p>
+      </div>
+    </section>
+
+    <section id="wishes" class="section place wishes-section">
+      <p class="overline dark">Наши пожелания для гостей</p>
+      <h2>Для вашего комфорта</h2>
+      <div class="wishes-card">
+        <p>Не забудьте взять с собой улыбки, хорошее настроение и удобную обувь для танцев.</p>
+        <p>Пожалуйста, не утруждайте себя выбором и поиском подарков — мы будем очень рады вашим пожеланиям в конвертах. Обещаем потратить их с умом (или безумством 🤭).</p>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+      <p class="overline dark">Галерея</p>
+      <h2>Наши моменты</h2>
+      <div class="gallery">
+        <img src="gallery8.jpg" alt="Александр и Елена" />
+        <img src="gallery4.jpg" alt="Свадебное настроение" />
+        <img src="gallery5.jpg" alt="Свадебное настроение" />
+        <img src="gallery6.jpg" alt="Свадебное настроение" />
+        <img src="gallery7.jpg" alt="Свадебное настроение" />
+        <img src="gallery9.jpg" alt="Свадебное настроение" />
+      </div>
+    </section>
+  
+    <section id="rsvp" class="section rsvp">
+      <div class="screen rsvp">
+      <div class="ornament">❦</div>
+      <h2>Подтвердите присутствие</h2>
+      <p>Пожалуйста, сообщите нам заранее, сможете ли вы быть с нами в этот день.</p>
+      <form onsubmit="sendRSVP(event)">
+        <input id="guestName" type="text" placeholder="Ваше имя" required>
+        <select id="guestAnswer" required>
+          <option value="">Выберите ответ</option>
+          <option>Буду присутствовать</option>
+          <option>К сожалению, не смогу</option>
+        </select>
+        <textarea id="guestComment" placeholder="Аллергия / пожелания по меню" rows="4"></textarea>
+        <button type="submit">Подтвердить</button>
+      </form>
+      <p id="formResult" class="form-result"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="monogram small">А <span>&</span> Е</div>
+    <p>22.08.2026</p>
+  </footer>
+<audio id="bgMusic" loop>
+    <source src="privet.mp3" type="audio/mpeg">
+</audio>
+  <script src="script.js"></script>
+</body>
+</html>
